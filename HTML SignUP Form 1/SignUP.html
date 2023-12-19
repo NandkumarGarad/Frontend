@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="SignupStyle.css">
+</head>
+<body>
+<div class="center">
+    <h1>Sign Up</h1>
+    <form action="loginServlet" method="post">
+        <div class="text_filed">
+            <input type="text" name="name" required>
+            <span></span>
+            <label>Name </label>
+        </div>
+
+        <div class="text_filed">
+            <input type="email" name="email" required>
+            <span></span>
+            <label> Email </label>
+        </div>
+
+        <div class="text_filed">
+            <input type="password" name="password" required>
+            <span></span>
+            <label>Password </label>
+        </div>
+
+        <div class="text_filed">
+            <input type="tel" name="phone" required>
+            <span></span>
+            <label> Phone </label>
+        </div>
+
+        <div class="text_filed">
+            <input type="text" name="address" required>
+            <span></span>
+            <label>Address </label>
+        </div>
+
+        <div class="text_filed">
+            <select name="role" required>
+                <option value="">Role</option>
+                <option value="manager">Manager</option>
+                <option value="staff">Staff</option>
+                <option value="customer">Customer</option>
+            </select>
+        </div>
+            <input type="submit" value="Save">
+    </form>
+</div>
+</body>
+</html>
